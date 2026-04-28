@@ -4,8 +4,6 @@ phases:
   install:
     commands:
       - pip3 install bandit
-      - apt-get update
-      - apt-get install -y zip
 
   pre_build:
     commands:
